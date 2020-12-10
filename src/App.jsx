@@ -15,7 +15,8 @@ function App() {
               <img src={image} style={{width:450, marginRight:50}} alt="screenshoot" />
             </div>
             <div style={{justifyContent:'center', alignItems:'center', display:'flex', flexDirection:'column'}} class="col-sm-5">
-              <div style={{fontSize:32, fontWeight:'bold', margin:15}}>Sidarma Mobile.</div>
+              <div style={{fontSize:32, fontWeight:'bold', margin:2}}>Sidarma Mobile.</div>
+              <div style={{fontSize:20, fontFamily:'Caveat', marginBottom:15}}>( Sistem Integrasi Data Radar Cuaca Mandiri )</div>
               <div style={{fontSize:14, width:pWindow/2.5, margin:15}}>
                 {artikel.about}
               </div>
