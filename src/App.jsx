@@ -12,7 +12,7 @@ function App() {
         <div class="container">
           <div class="row">
             <div style={{justifyContent:'center', alignItems:'center', display:'flex', flexDirection:'column'}} class="col-sm-7">
-              <img src={image} style={{width:450}} alt="screenshoot" />
+              <img src={image} style={{width:400}} alt="screenshoot" />
             </div>
             <div style={{justifyContent:'center', alignItems:'center', display:'flex', flexDirection:'column'}} class="col-sm-5">
               <div style={{fontSize:32, fontWeight:'bold', margin:2}}>Sidarma Mobile.</div>
@@ -20,7 +20,7 @@ function App() {
               {/* <div style={{fontSize:14, width:pWindow/2.5, margin:15}}>
                 {artikel.about}
               </div> */}
-              <button type="button" className="btn btn-outline-light m-2"><a style={{color:'white', textDecoration:'none'}} href={"https://drive.google.com/u/0/uc?export=download&confirm=qkrV&id=1k74x1osVsPXzlzAV4EOmsqR-8r9YckaA"} download="simpel.rar">Download</a></button>
+              <button type="button" className="btn btn-outline-light m-2"><a style={{color:'white', textDecoration:'none'}} href={"https://drive.google.com/file/d/1SXLKke2UKl_hjkTmrj4Y9qYswzV4uaoE/view?usp=sharing"} download="simpel.rar">Download</a></button>
             </div>
           </div>
         </div>
